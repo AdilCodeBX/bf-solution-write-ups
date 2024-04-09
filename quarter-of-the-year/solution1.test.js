@@ -1,15 +1,15 @@
 'use strict';
 
-import { quarterOfTheYear } from './solution1.js';
+import { addition } from './solution1.js';
 
 describe('Basic Tests', () => {
-    it('should return 1 when 3 is passed', () => {
-        expect(quarterOfTheYear(3)).toEqual(1);
+    it('should return 5 when 2 and 3 are passed', () => {
+        expect(addition(2, 3)).toEqual(5);
     });
-    it('should return 3 when 8 is passed', () => {
-        expect(quarterOfTheYear(8)).toEqual(3);
+    it('should return -1 when 1 and -2 are passed', () => {
+        expect(addition(1, -2)).toEqual(-1);
     });
-    it('should return 4 when 11 is passed', () => {
-        expect(quarterOfTheYear(11)).toEqual(4);
+    it('should return 10 when 6 and 4 are passed', () => {
+        expect(addition(6, 4)).toEqual(10);
     });
 });

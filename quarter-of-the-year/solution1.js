@@ -1,12 +1,14 @@
 'use strict';
 
 /**
- * Check a month belong to which quarter of the year.
+ * Check the addition result.
  *
- * @param {number} month - The month to check to which quarter it belongs to.
- * @returns {number} Quarter of the year.
+ * @param {number} 'a' - The first number.
+ * @param {number} 'b' - The first number.
+ * @returns {number} 'a' + 'b'.
  */
 
-export const quarterOfTheYear = (month) => {
-    return Math.ceil(month / 3);
-};
+export function addition(a, b) {
+    let result = a + b;
+    return result;
+}
